@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div
-              className="text-2xl font-bold text-[#FF894A] mb-4"
+              className="text-2xl font-bold text-[#FF6A26] mb-4"
               style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
             >
               MVP Geek
@@ -20,25 +20,25 @@ const Footer = () => {
             <div className="space-y-2">
               <a
                 href="#how-it-works"
-                className="block text-gray-400 hover:text-[#FF894A] text-sm"
+                className="block text-gray-400 hover:text-[#FF6A26] text-sm"
               >
                 How It Works
               </a>
               <a
                 href="#what-we-build"
-                className="block text-gray-400 hover:text-[#FF894A] text-sm"
+                className="block text-gray-400 hover:text-[#FF6A26] text-sm"
               >
                 What We Build
               </a>
               <a
                 href="#pricing"
-                className="block text-gray-400 hover:text-[#FF894A] text-sm"
+                className="block text-gray-400 hover:text-[#FF6A26] text-sm"
               >
                 Pricing
               </a>
               <a
                 href="#contact"
-                className="block text-gray-400 hover:text-[#FF894A] text-sm"
+                className="block text-gray-400 hover:text-[#FF6A26] text-sm"
               >
                 Contact
               </a>
@@ -50,13 +50,13 @@ const Footer = () => {
             <div className="space-y-2">
               <a
                 href="#"
-                className="block text-gray-400 hover:text-[#FF894A] text-sm"
+                className="block text-gray-400 hover:text-[#FF6A26] text-sm"
               >
                 Privacy Policy
               </a>
               <a
                 href="#"
-                className="block text-gray-400 hover:text-[#FF894A] text-sm"
+                className="block text-gray-400 hover:text-[#FF6A26] text-sm"
               >
                 Terms of Service
               </a>
@@ -68,19 +68,19 @@ const Footer = () => {
             <div className="space-y-2">
               <a
                 href="#"
-                className="block text-gray-400 hover:text-[#FF894A] text-sm"
+                className="block text-gray-400 hover:text-[#FF6A26] text-sm"
               >
                 LinkedIn
               </a>
               <a
                 href="#"
-                className="block text-gray-400 hover:text-[#FF894A] text-sm"
+                className="block text-gray-400 hover:text-[#FF6A26] text-sm"
               >
                 Twitter
               </a>
               <a
                 href="#"
-                className="block text-gray-400 hover:text-[#FF894A] text-sm"
+                className="block text-gray-400 hover:text-[#FF6A26] text-sm"
               >
                 Email
               </a>

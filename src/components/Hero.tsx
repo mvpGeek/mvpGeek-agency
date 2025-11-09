@@ -27,13 +27,13 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
           <a
             href="#contact"
-            className="bg-[#FF894A] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#ff7a35] transition-colors inline-flex items-center justify-center"
+            className="bg-[#FF6A26] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#ff7a35] transition-colors inline-flex items-center justify-center"
           >
             Get Started Today <ArrowRight className="ml-2" size={20} />
           </a>
           <a
             href="#how-it-works"
-            className="border-2 border-[#FF894A] text-[#FF894A] px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#FF894A] hover:text-white transition-colors"
+            className="border-2 border-[#FF6A26] text-[#FF6A26] px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#FF6A26] hover:text-white transition-colors"
           >
             See How It Works
           </a>
@@ -45,7 +45,7 @@ const Hero = () => {
         </p>
 
         {/* Hero Visual Placeholder */}
-        <div className="mt-16 bg-linear-to-br from-[#FF894A]/20 to-transparent rounded-2xl h-96 border border-white/10 flex items-center justify-center">
+        <div className="mt-16 bg-linear-to-br from-[#FF6A26]/20 to-transparent rounded-2xl h-96 border border-white/10 flex items-center justify-center">
           <span className="text-gray-600">Hero Visual / Dashboard Mockup</span>
         </div>
       </div>

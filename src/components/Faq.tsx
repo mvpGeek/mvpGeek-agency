@@ -42,7 +42,7 @@ const Faq = () => {
           className="text-4xl md:text-5xl font-bold mb-16 text-center"
           style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
         >
-          Frequently Asked <span className="text-[#FF894A]">Questions</span>
+          Frequently Asked <span className="text-[#FF6A26]">Questions</span>
         </h2>
 
         <div className="space-y-4">
@@ -57,7 +57,7 @@ const Faq = () => {
               >
                 <span className="text-lg font-semibold pr-8">{faq.q}</span>
                 <ChevronDown
-                  className={`shrink-0 text-[#FF894A] transition-transform ${
+                  className={`shrink-0 text-[#FF6A26] transition-transform ${
                     openFaq === index ? "rotate-180" : ""
                   }`}
                   size={24}

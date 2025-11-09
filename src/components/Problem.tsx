@@ -18,7 +18,7 @@ const Problem = () => {
             className="text-4xl md:text-5xl font-bold mb-6 leading-tight"
             style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
           >
-            Too many founders waste <span className="text-red-400">months</span>{" "}
+            Too many founders waste <span className="text-[#FF6A26]">months</span>{" "}
             just trying to get their MVP off the ground.
           </h2>
         </div>
@@ -138,9 +138,9 @@ const Problem = () => {
           </div>
         </div>
         {/* CTA Box */}
-        <div className="bg-linear-to-r from-[#FF894A]/20 via-[#FF894A]/10 to-transparent border border-[#FF894A]/40 rounded-2xl p-6 mt-8">
+        <div className="bg-linear-to-r from-[#FF6A26]/20 via-[#FF6A26]/10 to-transparent border border-[#FF6A26]/40 rounded-2xl p-6 mt-8">
           <p
-            className="text-xl font-bold text-center text-[#FF894A]"
+            className="text-xl font-bold text-center text-[#FF6A26]"
             style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
           >
             Your idea deserves better than this broken system.

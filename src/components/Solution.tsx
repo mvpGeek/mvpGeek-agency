@@ -9,17 +9,17 @@ const Solution = () => {
           style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
         >
           The Formula That{" "}
-          <span className="text-[#FF894A]">Changes Everything</span>
+          <span className="text-[#FF6A26]">Changes Everything</span>
         </h2>
 
         {/* Formula Visual */}
-        <div className="bg-linear-to-r from-[#FF894A]/10 to-transparent border border-[#FF894A]/30 rounded-2xl p-8 mb-16">
+        <div className="bg-linear-to-r from-[#FF6A26]/10 to-transparent border border-[#FF6A26]/30 rounded-2xl p-8 mb-16">
           <div className="text-center space-y-4">
             <div className="text-gray-400 text-lg line-through">
               Traditional Development = Time × Money × Risk
             </div>
             <div
-              className="text-3xl font-bold text-[#FF894A]"
+              className="text-3xl font-bold text-[#FF6A26]"
               style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
             >
               MVP Geek = Speed × Validation ÷ Cost
@@ -38,7 +38,7 @@ const Solution = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             {/* Large hero card - spans 2 columns and 2 rows */}
-            <div className="md:col-span-2 md:row-span-2 bg-linear-to-br from-[#FF894A]/20 to-[#FF894A]/5 border border-[#FF894A]/30 rounded-2xl p-8 flex flex-col justify-center">
+            <div className="md:col-span-2 md:row-span-2 bg-linear-to-br from-[#FF6A26]/20 to-[#FF6A26]/5 border border-[#FF6A26]/30 rounded-2xl p-8 flex flex-col justify-center">
               <div className="text-6xl mb-6">🚀</div>
               <p
                 className="text-3xl font-bold mb-4"
@@ -129,21 +129,21 @@ const Solution = () => {
           >
             How We Make This Possible
           </h3>
-          <div className="w-24 h-1 bg-linear-to-r from-transparent via-[#FF894A] to-transparent mx-auto"></div>
+          <div className="w-24 h-1 bg-linear-to-r from-transparent via-[#FF6A26] to-transparent mx-auto"></div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 mb-16 relative">
           {/* Card 1 - Speed Multiplier */}
           <div className="relative group">
-            <div className="absolute inset-0 bg-linear-to-br from-[#FF894A]/20 to-transparent rounded-3xl blur-xl group-hover:blur-2xl transition-all opacity-0 group-hover:opacity-100"></div>
-            <div className="relative bg-linear-to-br from-white/10 to-white/5 border border-white/20 rounded-3xl p-8 hover:border-[#FF894A] transition-all transform hover:scale-105 hover:-translate-y-2">
-              <div className="bg-[#FF894A]/20 w-20 h-20 rounded-2xl flex items-center justify-center mb-6 group-hover:rotate-6 transition-transform">
+            <div className="absolute inset-0 bg-linear-to-br from-[#FF6A26]/20 to-transparent rounded-3xl blur-xl group-hover:blur-2xl transition-all opacity-0 group-hover:opacity-100"></div>
+            <div className="relative bg-linear-to-br from-white/10 to-white/5 border border-white/20 rounded-3xl p-8 hover:border-[#FF6A26] transition-all transform hover:scale-105 hover:-translate-y-2">
+              <div className="bg-[#FF6A26]/20 w-20 h-20 rounded-2xl flex items-center justify-center mb-6 group-hover:rotate-6 transition-transform">
                 <div className="text-5xl">⚡</div>
               </div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-2 h-2 bg-[#FF894A] rounded-full animate-pulse"></div>
+                <div className="w-2 h-2 bg-[#FF6A26] rounded-full animate-pulse"></div>
                 <h4
-                  className="text-2xl font-bold text-[#FF894A]"
+                  className="text-2xl font-bold text-[#FF6A26]"
                   style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
                 >
                   Speed Multiplier
@@ -153,7 +153,7 @@ const Solution = () => {
                 2-4 weeks from idea to live product. While others are still in
                 discovery phases, you are launching.
               </p>
-              <div className="flex items-center gap-2 text-sm text-[#FF894A]/80">
+              <div className="flex items-center gap-2 text-sm text-[#FF6A26]/80">
                 <span className="font-semibold">10x faster</span>
                 <ArrowRight size={16} />
               </div>
@@ -189,15 +189,15 @@ const Solution = () => {
 
           {/* Card 3 - Cost Division */}
           <div className="relative group">
-            <div className="absolute inset-0 bg-linear-to-br from-[#FF894A]/20 to-transparent rounded-3xl blur-xl group-hover:blur-2xl transition-all opacity-0 group-hover:opacity-100"></div>
-            <div className="relative bg-linear-to-br from-white/10 to-white/5 border border-white/20 rounded-3xl p-8 hover:border-[#FF894A] transition-all transform hover:scale-105 hover:-translate-y-2">
-              <div className="bg-[#FF894A]/20 w-20 h-20 rounded-2xl flex items-center justify-center mb-6 group-hover:rotate-6 transition-transform">
+            <div className="absolute inset-0 bg-linear-to-br from-[#FF6A26]/20 to-transparent rounded-3xl blur-xl group-hover:blur-2xl transition-all opacity-0 group-hover:opacity-100"></div>
+            <div className="relative bg-linear-to-br from-white/10 to-white/5 border border-white/20 rounded-3xl p-8 hover:border-[#FF6A26] transition-all transform hover:scale-105 hover:-translate-y-2">
+              <div className="bg-[#FF6A26]/20 w-20 h-20 rounded-2xl flex items-center justify-center mb-6 group-hover:rotate-6 transition-transform">
                 <div className="text-5xl">💰</div>
               </div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-2 h-2 bg-[#FF894A] rounded-full animate-pulse"></div>
+                <div className="w-2 h-2 bg-[#FF6A26] rounded-full animate-pulse"></div>
                 <h4
-                  className="text-2xl font-bold text-[#FF894A]"
+                  className="text-2xl font-bold text-[#FF6A26]"
                   style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
                 >
                   Cost Division
@@ -207,7 +207,7 @@ const Solution = () => {
                 10x cheaper than traditional agencies because we eliminate
                 waste, not quality. Smart efficiency, not corner-cutting.
               </p>
-              <div className="flex items-center gap-2 text-sm text-[#FF894A]/80">
+              <div className="flex items-center gap-2 text-sm text-[#FF6A26]/80">
                 <span className="font-semibold">Smart savings</span>
                 <ArrowRight size={16} />
               </div>
@@ -216,10 +216,10 @@ const Solution = () => {
         </div>
 
         {/* Outcome */}
-        <div className="relative overflow-hidden bg-linear-to-br from-[#10b981]/10 via-[#0D0A08] to-[#FF894A]/10 border border-[#10b981]/30 rounded-3xl p-8 md:p-12">
+        <div className="relative overflow-hidden bg-linear-to-br from-[#10b981]/10 via-[#0D0A08] to-[#FF6A26]/10 border border-[#10b981]/30 rounded-3xl p-8 md:p-12">
           {/* Decorative elements */}
           <div className="absolute top-0 right-0 w-64 h-64 bg-[#10b981]/5 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#FF894A]/5 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#FF6A26]/5 rounded-full blur-3xl"></div>
 
           <div className="relative z-10">
             <div className="flex items-center gap-3 mb-8">
@@ -253,7 +253,7 @@ const Solution = () => {
               </div>
 
               {/* Worst Case Card */}
-              <div className="bg-[#FF894A]/10 border border-[#FF894A]/40 rounded-2xl p-6 hover:border-[#FF894A] transition-all group">
+              <div className="bg-[#FF6A26]/10 border border-[#FF6A26]/40 rounded-2xl p-6 hover:border-[#FF6A26] transition-all group">
                 <div className="flex items-start gap-3 mb-3">
                   <div className="text-3xl group-hover:scale-110 transition-transform">
                     💡
@@ -273,9 +273,9 @@ const Solution = () => {
             </div>
 
             {/* Bottom Banner */}
-            <div className="bg-linear-to-r from-[#FF894A]/20 to-transparent border-l-4 border-[#FF894A] rounded-lg p-6">
+            <div className="bg-linear-to-r from-[#FF6A26]/20 to-transparent border-l-4 border-[#FF6A26] rounded-lg p-6">
               <p
-                className="text-xl font-bold text-center text-[#FF894A]"
+                className="text-xl font-bold text-center text-[#FF6A26]"
                 style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
               >
                 Either way, you are miles ahead of everyone still planning. ⚡

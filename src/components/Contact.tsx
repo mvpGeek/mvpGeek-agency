@@ -17,7 +17,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 px-4">
       <div className="max-w-4xl mx-auto">
-        <div className="bg-linear-to-br from-[#FF894A]/20 to-transparent border border-[#FF894A]/30 rounded-3xl p-12">
+        <div className="bg-linear-to-br from-[#FF6A26]/20 to-transparent border border-[#FF6A26]/30 rounded-3xl p-12">
           <h2
             className="text-4xl md:text-5xl font-bold mb-4 text-center"
             style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
@@ -41,7 +41,7 @@ const Contact = () => {
               <input
                 type="text"
                 required
-                className="w-full px-4 py-3 bg-white/5 border border-white/20 rounded-lg focus:border-[#FF894A] focus:outline-none focus:ring-2 focus:ring-[#FF894A]/50 text-white"
+                className="w-full px-4 py-3 bg-white/5 border border-white/20 rounded-lg focus:border-[#FF6A26] focus:outline-none focus:ring-2 focus:ring-[#FF6A26]/50 text-white"
                 value={formData.name}
                 onChange={(e) =>
                   setFormData({ ...formData, name: e.target.value })
@@ -56,7 +56,7 @@ const Contact = () => {
               <input
                 type="email"
                 required
-                className="w-full px-4 py-3 bg-white/5 border border-white/20 rounded-lg focus:border-[#FF894A] focus:outline-none focus:ring-2 focus:ring-[#FF894A]/50 text-white"
+                className="w-full px-4 py-3 bg-white/5 border border-white/20 rounded-lg focus:border-[#FF6A26] focus:outline-none focus:ring-2 focus:ring-[#FF6A26]/50 text-white"
                 value={formData.email}
                 onChange={(e) =>
                   setFormData({ ...formData, email: e.target.value })
@@ -70,7 +70,7 @@ const Contact = () => {
               </label>
               <input
                 type="tel"
-                className="w-full px-4 py-3 bg-white/5 border border-white/20 rounded-lg focus:border-[#FF894A] focus:outline-none focus:ring-2 focus:ring-[#FF894A]/50 text-white"
+                className="w-full px-4 py-3 bg-white/5 border border-white/20 rounded-lg focus:border-[#FF6A26] focus:outline-none focus:ring-2 focus:ring-[#FF6A26]/50 text-white"
                 value={formData.phone}
                 onChange={(e) =>
                   setFormData({ ...formData, phone: e.target.value })
@@ -85,7 +85,7 @@ const Contact = () => {
               <textarea
                 required
                 rows={5}
-                className="w-full px-4 py-3 bg-white/5 border border-white/20 rounded-lg focus:border-[#FF894A] focus:outline-none focus:ring-2 focus:ring-[#FF894A]/50 text-white resize-none"
+                className="w-full px-4 py-3 bg-white/5 border border-white/20 rounded-lg focus:border-[#FF6A26] focus:outline-none focus:ring-2 focus:ring-[#FF6A26]/50 text-white resize-none"
                 value={formData.idea}
                 onChange={(e) =>
                   setFormData({ ...formData, idea: e.target.value })
@@ -96,7 +96,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="w-full bg-[#FF894A] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#ff7a35] transition-colors"
+              className="w-full bg-[#FF6A26] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#ff7a35] transition-colors"
             >
               Book Your Free Call
             </button>

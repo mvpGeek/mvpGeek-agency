@@ -9,11 +9,11 @@ const Services = () => {
           style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
         >
           Everything You Need to{" "}
-          <span className="text-[#FF894A]">Validate Fast</span>
+          <span className="text-[#FF6A26]">Validate Fast</span>
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8 mt-16">
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-[#FF894A]/50 transition-all group">
+          <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-[#FF6A26]/50 transition-all group">
             <div className="text-5xl mb-4 group-hover:scale-110 transition-transform">
               🌐
             </div>
@@ -29,7 +29,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-[#FF894A]/50 transition-all group">
+          <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-[#FF6A26]/50 transition-all group">
             <div className="text-5xl mb-4 group-hover:scale-110 transition-transform">
               📱
             </div>
@@ -45,7 +45,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-[#FF894A]/50 transition-all group">
+          <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-[#FF6A26]/50 transition-all group">
             <div className="text-5xl mb-4 group-hover:scale-110 transition-transform">
               🚀
             </div>
@@ -61,7 +61,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-[#FF894A]/50 transition-all group">
+          <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-[#FF6A26]/50 transition-all group">
             <div className="text-5xl mb-4 group-hover:scale-110 transition-transform">
               🔌
             </div>
@@ -77,7 +77,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-[#FF894A]/50 transition-all group">
+          <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-[#FF6A26]/50 transition-all group">
             <div className="text-5xl mb-4 group-hover:scale-110 transition-transform">
               📊
             </div>
@@ -93,7 +93,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-[#FF894A]/50 transition-all group">
+          <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-[#FF6A26]/50 transition-all group">
             <div className="text-5xl mb-4 group-hover:scale-110 transition-transform">
               🎯
             </div>

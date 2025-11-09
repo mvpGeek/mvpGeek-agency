@@ -10,14 +10,14 @@ const Process = () => {
           style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
         >
           From Idea to Launch in{" "}
-          <span className="text-[#FF894A]">3 Simple Steps</span>
+          <span className="text-[#FF6A26]">3 Simple Steps</span>
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8 mt-16">
           <div className="relative">
-            <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-[#FF894A]/50 transition-all">
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-[#FF6A26]/50 transition-all">
               <div
-                className="w-16 h-16 bg-[#FF894A] rounded-full flex items-center justify-center text-3xl font-bold mb-6"
+                className="w-16 h-16 bg-[#FF6A26] rounded-full flex items-center justify-center text-3xl font-bold mb-6"
                 style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
               >
                 1
@@ -34,13 +34,13 @@ const Process = () => {
                 create a clear roadmap in under 48 hours.
               </p>
             </div>
-            <div className="hidden md:block absolute top-12 -right-4 w-8 h-1 bg-[#FF894A]/30"></div>
+            <div className="hidden md:block absolute top-12 -right-4 w-8 h-1 bg-[#FF6A26]/30"></div>
           </div>
 
           <div className="relative">
-            <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-[#FF894A]/50 transition-all">
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-[#FF6A26]/50 transition-all">
               <div
-                className="w-16 h-16 bg-[#FF894A] rounded-full flex items-center justify-center text-3xl font-bold mb-6"
+                className="w-16 h-16 bg-[#FF6A26] rounded-full flex items-center justify-center text-3xl font-bold mb-6"
                 style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
               >
                 2
@@ -57,13 +57,13 @@ const Process = () => {
                 you in the loop without slowing us down.
               </p>
             </div>
-            <div className="hidden md:block absolute top-12 -right-4 w-8 h-1 bg-[#FF894A]/30"></div>
+            <div className="hidden md:block absolute top-12 -right-4 w-8 h-1 bg-[#FF6A26]/30"></div>
           </div>
 
           <div>
-            <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-[#FF894A]/50 transition-all">
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-[#FF6A26]/50 transition-all">
               <div
-                className="w-16 h-16 bg-[#FF894A] rounded-full flex items-center justify-center text-3xl font-bold mb-6"
+                className="w-16 h-16 bg-[#FF6A26] rounded-full flex items-center justify-center text-3xl font-bold mb-6"
                 style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
               >
                 3
@@ -91,7 +91,7 @@ const Process = () => {
           </p>
           <a
             href="#contact"
-            className="inline-flex items-center text-[#FF894A] hover:text-[#ff7a35] font-semibold"
+            className="inline-flex items-center text-[#FF6A26] hover:text-[#ff7a35] font-semibold"
           >
             Get Your Custom Quote <ArrowRight className="ml-2" size={20} />
           </a>

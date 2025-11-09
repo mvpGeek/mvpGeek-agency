@@ -9,7 +9,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div
-            className="text-2xl font-bold text-[#FF894A] flex gap-1 items-center"
+            className="text-2xl font-bold text-[#FF6A26] flex gap-1 items-center"
             style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
           >
             <img src="/logo.png" alt="MVP Geek" width={36} height={36} />
@@ -20,25 +20,25 @@ const Navigation = () => {
           <div className="hidden md:flex space-x-8">
             <a
               href="#how-it-works"
-              className="text-gray-300 hover:text-[#FF894A] transition-colors"
+              className="text-gray-300 hover:text-[#FF6A26] transition-colors"
             >
               How It Works
             </a>
             <a
               href="#what-we-build"
-              className="text-gray-300 hover:text-[#FF894A] transition-colors"
+              className="text-gray-300 hover:text-[#FF6A26] transition-colors"
             >
               What We Build
             </a>
             <a
               href="#pricing"
-              className="text-gray-300 hover:text-[#FF894A] transition-colors"
+              className="text-gray-300 hover:text-[#FF6A26] transition-colors"
             >
               Pricing
             </a>
             <a
               href="#contact"
-              className="text-gray-300 hover:text-[#FF894A] transition-colors"
+              className="text-gray-300 hover:text-[#FF6A26] transition-colors"
             >
               Contact
             </a>
@@ -60,25 +60,25 @@ const Navigation = () => {
           <div className="px-4 py-4 space-y-4">
             <a
               href="#how-it-works"
-              className="block text-gray-300 hover:text-[#FF894A]"
+              className="block text-gray-300 hover:text-[#FF6A26]"
             >
               How It Works
             </a>
             <a
               href="#what-we-build"
-              className="block text-gray-300 hover:text-[#FF894A]"
+              className="block text-gray-300 hover:text-[#FF6A26]"
             >
               What We Build
             </a>
             <a
               href="#pricing"
-              className="block text-gray-300 hover:text-[#FF894A]"
+              className="block text-gray-300 hover:text-[#FF6A26]"
             >
               Pricing
             </a>
             <a
               href="#contact"
-              className="block text-gray-300 hover:text-[#FF894A]"
+              className="block text-gray-300 hover:text-[#FF6A26]"
             >
               Contact
             </a>
