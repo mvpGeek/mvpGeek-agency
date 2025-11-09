@@ -14,7 +14,7 @@ const Hero = () => {
             sentence="Weeks Not Months"
             manualMode={false}
             blurAmount={5}
-            borderColor="#FFFFFF"
+            borderColor="#0D0A08"
             animationDuration={1}
             pauseBetweenAnimations={0.5}
           />
