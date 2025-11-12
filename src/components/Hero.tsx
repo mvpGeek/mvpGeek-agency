@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="pt-32 pb-20 px-4">
       <div className="max-w-7xl mx-auto text-center">
         <h1
-          className="text-4xl md:text-7xl font-bold mb-6 leading-tight"
+          className="text-4xl md:text-7xl font-bold mb-6 leading-tight bg-linear-to-r from-[#FFFFFF] to-[#FFFFFF7e] inline-block text-transparent bg-clip-text"
           style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
         >
           Validate Your Idea in <br />{" "}
@@ -27,13 +27,13 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
           <a
             href="#contact"
-            className="bg-[#FF6A26] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#ff7a35] transition-colors inline-flex items-center justify-center"
+            className="bg-[#FF6A26] border-[#FF6A26] border-4 text-[#0D0A08] px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#ff7a35] transition-colors inline-flex items-center justify-center bg-linear-to-b from-[#FF6A26] to-[#FFAE82] focus:ring-2 focus:ring-[#FF6A26] hover:shadow-xl duration-200"
           >
             Get Started Today <ArrowRight className="ml-2" size={20} />
           </a>
           <a
             href="#how-it-works"
-            className="border-2 border-[#FF6A26] text-[#FF6A26] px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#FF6A26] hover:text-white transition-colors"
+            className="border-4 border-[#FF6A26] text-[#FF6A26] px-8 py-4 rounded-full text-lg font-semibold transition-colors"
           >
             See How It Works
           </a>

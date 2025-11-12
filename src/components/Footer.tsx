@@ -80,7 +80,7 @@ const Footer = () => {
               </a>
               <a
                 href="#"
-                className="block text-gray-400 hover:text-[#FF6A26] text-sm"
+                className="block text-gray-400 hover:text-[#ff6b265a] text-sm"
               >
                 Email
               </a>
@@ -88,6 +88,9 @@ const Footer = () => {
           </div>
         </div>
 
+        <p className="my-8 font-bold text-7xl md:text-[12rem] opacity-30 text-[#FF6A26] text-center">
+          MVP Geek
+        </p>
         <div className="border-t border-white/10 pt-8 text-center text-gray-500 text-sm">
           © 2025 MVP Geek. All rights reserved.
         </div>

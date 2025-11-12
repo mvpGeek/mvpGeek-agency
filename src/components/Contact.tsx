@@ -96,7 +96,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="w-full bg-[#FF6A26] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#ff7a35] transition-colors"
+              className="w-full bg-[#FF6A26] border-[#FF6A26] border-4 text-[#0D0A08] px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#ff7a35] transition-colors bg-linear-to-b from-[#FF6A26] to-[#FFAE82] focus:ring-2 focus:ring-[#FF6A26] hover:shadow-xl duration-200 cursor-pointer"
             >
               Book Your Free Call
             </button>

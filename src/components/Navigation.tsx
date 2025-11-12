@@ -12,7 +12,7 @@ const Navigation = () => {
             className="text-2xl font-bold text-[#FF6A26] flex gap-1 items-center"
             style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
           >
-            <img src="/logo.png" alt="MVP Geek" width={36} height={36} />
+            <img src="/logo.svg" alt="MVP Geek" width={36} height={36} />
             MVP Geek
           </div>
 
