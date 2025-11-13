@@ -8,13 +8,14 @@ const Navigation = () => {
     <nav className="fixed top-0 w-full bg-[#0D0A08]/95 backdrop-blur-sm z-50 border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div
+          <a
+          href="#"
             className="text-2xl font-bold text-[#FF6A26] flex gap-1 items-center"
             style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
           >
             <img src="/logo.svg" alt="MVP Geek" width={36} height={36} />
             MVP Geek
-          </div>
+          </a>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
@@ -31,10 +32,10 @@ const Navigation = () => {
               What We Build
             </a>
             <a
-              href="#pricing"
+              href="#testimonials"
               className="text-gray-300 hover:text-[#FF6A26] transition-colors"
             >
-              Pricing
+              Testimonials
             </a>
             <a
               href="#contact"

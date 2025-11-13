@@ -6,11 +6,13 @@ interface PageMeta {
 }
 
 const pageMeta: PageMeta = {
-  title: "MVP Geek",
-  description: "Ship your MVP in weeks, not months. Validate Fast, Build Smart.",
+  title:
+    "MVP Geek — Validate Your Startup Idea in Weeks, Not Months | Launch Your MVP in 4 weeks",
+  description:
+    "Ship your MVP fast and affordable. MVP Geek helps founders launch a working MVP in 4 weeks, validate real users, gather feedback, and avoid wasting months and $80K+.",
 };
 
-import MVPGeekLanding from "../components/MVPGeekLanding.tsx";
+import Home from "../components/Home.astro";
 import "../styles/global.css";
 ---
 
@@ -20,15 +22,48 @@ import "../styles/global.css";
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{pageMeta.title}</title>
+    <meta
+      name="title"
+      content="MVPGeek — Validate Your Startup Idea in Weeks, Not Months | Launch Your MVP in 4 weeks"
+    />
     <meta name="description" content={pageMeta.description} />
+    <meta
+      name="keywords"
+      content="MVP development, startup MVP, build MVP fast, MVP agency, idea validation, launch MVP in 4 weeks, startup product development, affordable MVP development, rapid prototyping"
+    />
+    <meta name="author" content="Rajesh Rajasekaran" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.mvpgeek.com/" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-    <!-- Open Graph -->
-    <meta property="og:title" content={pageMeta.title} />
-    <meta property="og:description" content={pageMeta.description} />
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.mvpgeek.com/" />
+    <meta
+      property="og:title"
+      content="Validate Your Startup Idea in 4 Weeks — MVP Geek"
+    />
+    <meta
+      property="og:description"
+      content="Launch your MVP in 4 weeks. Validate demand, gather real user feedback, and avoid wasting months and money. Trusted by 10+ founders."
+    />
+    <meta property="og:image" content="https://www.mvpgeek.com/og-image.png" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://www.mvpgeek.com/" />
+    <meta
+      name="twitter:title"
+      content="Validate Your Idea in 4 Weeks — MVP Geek"
+    />
+    <meta
+      name="twitter:description"
+      content="Build and launch your MVP in 4 weeks. Fast, affordable, validation-driven development trusted by 10+ founders."
+    />
+    <meta name="twitter:image" content="https://www.mvpgeek.com/og-image.png" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -39,5 +74,26 @@ import "../styles/global.css";
     />
   </head>
 
-  <body> <MVPGeekLanding client:only /> </body>
+  <body> <Home /> </body>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "MVPGeek",
+      "url": "https://www.mvpgeek.com/",
+      "logo": "https://www.mvpgeek.com/logo.png",
+      "description": "MVPGeek helps founders launch a working MVP in 4 weeks for fast idea validation with real users, feedback, and data-driven decisions.",
+      "sameAs": ["https://x.com/mvpGeek"],
+      "founder": {
+        "@type": "Person",
+        "name": "Rajesh Rajasekaran"
+      },
+      "areaServed": "Worldwide",
+      "brand": {
+        "@type": "Brand",
+        "name": "MVP Geek"
+      }
+    }
+  </script>
 </html>

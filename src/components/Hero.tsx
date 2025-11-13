@@ -41,13 +41,8 @@ const Hero = () => {
 
         <p className="text-gray-500 text-sm flex items-center justify-center">
           <Check className="text-[#10b981] mr-2" size={20} />
-          Trusted by 50+ founders who launched faster
+          Trusted by 10+ founders who launched faster
         </p>
-
-        {/* Hero Visual Placeholder */}
-        <div className="mt-16 bg-linear-to-br from-[#FF6A26]/20 to-transparent rounded-2xl h-96 border border-white/10 flex items-center justify-center">
-          <span className="text-gray-600">Hero Visual / Dashboard Mockup</span>
-        </div>
       </div>
     </section>
   );
