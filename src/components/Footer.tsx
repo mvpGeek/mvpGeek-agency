@@ -67,7 +67,7 @@ const Footer = () => {
             <h4 className="font-semibold mb-4 text-white">Connect</h4>
             <div className="space-y-2">
               <a
-                href="https://x.com/mvpGeek"
+                href="https://x.com/rajxcodes"
                 target="_blank"
                 className="block text-gray-400 hover:text-[#FF6A26] text-sm"
               >
