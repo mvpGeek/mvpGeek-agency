@@ -4,10 +4,10 @@ const Footer = () => {
   return (
     <footer className="py-12 px-4 border-t border-white/10">
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-4 gap-8 mb-8 justify-items-center">
+        <div className="grid md:grid-cols-4 gap-8 mb-8 md:justify-items-center">
           <div>
             <div
-              className="text-2xl font-bold text-[#FF6A26] mb-4"
+              className="text-2xl font-bold text-[#FF6A26] mb-1 md:mb-4"
               style={{ fontFamily: "Bricolage Grotesque, sans-serif" }}
             >
               MVP Geek

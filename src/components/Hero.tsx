@@ -3,7 +3,7 @@ import TrueFocus from "./TrueFocus";
 
 const Hero = () => {
   return (
-    <section className="pt-32 pb-20 px-4">
+    <section className="pt-44 pb-20 px-4">
       <div className="max-w-7xl mx-auto text-center">
         <h1
           className="text-4xl md:text-7xl font-bold mb-6 leading-tight bg-linear-to-r from-[#FFFFFF] to-[#FFFFFF7e] inline-block text-transparent bg-clip-text"
@@ -14,7 +14,7 @@ const Hero = () => {
             sentence="Weeks Not Months"
             manualMode={false}
             blurAmount={5}
-            borderColor="#0D0A08"
+            borderColor="transparent"
             animationDuration={1}
             pauseBetweenAnimations={0.5}
           />
@@ -38,11 +38,6 @@ const Hero = () => {
             See How It Works
           </a>
         </div>
-
-        <p className="text-gray-500 text-sm flex items-center justify-center">
-          <Check className="text-[#10b981] mr-2" size={20} />
-          Trusted by 10+ founders who launched faster
-        </p>
       </div>
     </section>
   );
